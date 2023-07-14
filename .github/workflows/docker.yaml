@@ -8,7 +8,7 @@ jobs:
   docker:
     name: Test TypeScript code for event ${{ github.event_name }} on ${{ github.ref }}
 
-    runs-on: ${{ ubuntu-latest }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
